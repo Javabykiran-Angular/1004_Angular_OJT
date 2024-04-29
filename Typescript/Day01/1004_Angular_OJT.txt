@@ -1,0 +1,57 @@
+			Welcome To Angular Module 
+				  Sumit Raokhande
+
+- B.E.Electronics, KBP satara
+- M.Tech Electronics, Walchand College Sangli
+- C-Dac Wimc , Sunbeam pune
+- worked as Mobile Application developer at tivre business solution
+- worked on J2ME,Symbian,Windows Mobile,Reaserach Motion
+- Worked as Android developer at veetron 
+- Live android application prasieo,autohub,garage
+- Worked as JDE Developer of Oracle Product
+- Worked as OpenSDK developer
+- work as angular developer
+- work on google cloud & docker 
+
+Git Hub Repo => Download code stuff from here 
+https://github.com/Javabykiran-Angular/1004_Angular_OJT.git
+
+
+- Daily Session Mon to frid => if possible we conduct sat as well on the basis of requirement
+- Daily at least minium 1.30 hr session is avg duration it will increase or may be decrease depends on topic 
+- Duration 55 hr to 60Hr including project 
+- We also conduct one inductry level project.
+- All recording will be given on portal 
+- Code also be shared to u on git hub repo.
+- Once session is started don't do any other works parally.
+- Don't join late u have join sharp 4 pm => u hv buffere time 5 min => after 5 min i will on that waiting list.
+- All interview Question will given  
+- Don't miss any session 
+- There is no any other trainer to resolve ur doubts=> One man show 
+Sumit => u can join session before 10 min or u can wait after session 10 min 
+
+
+
+Flow
+- Typescript 
+- Angular 16
+- Project On Angular 
+- I will take from basic => from scratch
+
+
+
+My Expectation From U 
+- Core Java => OOPS Concept 
+- Basics of HTML & CSS required 
+- Daily Practicse is reuired 
+- Two way communication required 
+
+
+
+
+
+
+  
+
+
+
