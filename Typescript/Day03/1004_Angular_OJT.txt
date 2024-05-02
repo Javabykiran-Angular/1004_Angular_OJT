@@ -1,0 +1,116 @@
+Last Lecture Agenda
+1 Difference between Angular Js & Angular 
+
+	1 Angular js => Js based freamwork / Angular is Typescript
+	2 MVC pattern  / MVW pattern 
+	3 Not memory efficient / memory efficient
+	4 Performance decrease / Increse Performance
+	5 Its not support Mobile community / It support mobile community
+	
+
+2 what is Typescript?
+- Typescript is Object Orientated Lang.
+- Typescript is superset of javascript
+- Developed By Mircosoft 2012
+- It was designed by Anders Hejlsberg (designer of C#) at Microsoft
+its coding style is used like C++
+- The ECMAScript specification is a standardized specification of a scripting language
+- ECMAScript standard + ECMAScript version6(JS) + Additional features(Opps Concept,module)=Typescript
+
+
+
+Advantages
+1 Strong static typing
+       -TypeScript is a typed language, where we can specify the type of the variables, function parameters and object properties
+inferred Type to mention Data type of Variable, if not mentioned Data type its by deafault take "any" Data type
+2 Find Compile Time Error 
+3 Supports 
+  - Classess
+  - Inheritance
+  - interface
+  - enum
+  - Function Override
+
+Disadvantage
+- Browser Don't understand Typescript
+	.ts +tsc (typescript compiler)=>.js (javascript)
+	
+- Generally TypeScript takes time to compile the code.
+
+
+Installation
+Steps
+1 Installed Node
+2 Installed  VSCode code editor
+3 npm install -g typescript
+ - npm = Node Package Manager
+ -g = globally
+internet is required
+
+4 Simple pgm
+
+demo1.ts 
+	console.log("Hello World");
+	console.log('Hello World');
+	console.log(`
+		Hello World
+		`);
+	
+	tsc demo1.ts & node demo1.js
+
+5 variable 
+	var a1;
+	
+6 data type 
+	number,string,boolean
+	any (numbre,string,boolean) , void 
+	null & undefined 
+
+
+summary & Interview Questions
+1 What is TypeScript?
+2 Advantages of TypeScript
+3 Difference between Angular Js & Angular
+
+
+Today's Lecture Agenda
+1 Continue data type 
+2 Literal
+3 type assertion
+4 Operators
+5 control statement/sequential statement
+6 Loop Statement
+7 var Vs Let Vs const
+
+summary & Interview Questions
+1 How to use Literal
+2 Why we use Type Assertion?
+3 Explain Operators
+4 Which are loop statement & control statement
+5 Difference between var Vs let Vs const
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
