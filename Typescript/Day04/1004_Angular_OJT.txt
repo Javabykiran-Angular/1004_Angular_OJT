@@ -1,0 +1,71 @@
+Last Lecture Agenda
+1 Continue data type 
+	var a:number=10;
+	console.log("value of a "+a);
+	console.log(`value of a ${a} `);
+	
+	var str!:string;
+	
+2 Literal
+	var a:number|string;
+	var a:50|boolean;
+	
+3 type assertion
+	1 angle bracket
+		var a:any;
+		
+		var temp=(<string> a);
+		temp.
+		
+	2 as syntax
+		var temp=(a as string)'
+4 Operators
+	=== => strongly operator => value as well as data type 
+	== => it cjecks only value 
+5 control statement/sequential statement
+	var count=2;
+	if(count<4){
+	...
+	}else{
+	...
+	}
+	
+	switch(choice){
+		case 1...
+				break;
+		case 2: 
+		...
+		default : 
+				break;
+	}
+6 Loop Statement
+	while,do-while 
+	for (var i=0;i<4;i++){
+		...
+	}
+7 var Vs Let Vs const
+	var scope => Its a global 
+	let scope => its scope is within nearest block 
+	const scope=> global as well as local
+	
+
+summary & Interview Questions
+1 How to use Literal
+2 Why we use Type Assertion?
+3 Explain Operators
+4 Which are loop statement & control statement
+5 Difference between var Vs let Vs const
+
+
+Today's Lecture Agenda
+1 Functions
+2 Anonymous Functions
+3 fat arrow function
+4 optional parameter Functions
+5 Default parameter function
+
+summary & Interview Questions
+1 What is Anonymous function?
+2 How to use fat arrow function?
+3 Explain optional parameter function?
+4 Explain default parameter function?
