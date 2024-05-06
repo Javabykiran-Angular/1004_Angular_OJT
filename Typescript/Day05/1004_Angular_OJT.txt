@@ -1,0 +1,81 @@
+Last Lecture Agenda
+1 Functions
+	function add1(){
+		...
+	}
+	
+	add1();
+	
+	function add1(a:number,b:number){
+	
+		...
+	}
+	
+	function add1():number{
+		return (8+8);
+	}
+	
+	let res=add1()
+	
+	function add1(a:number,b:number){
+		return (a+b)
+	}
+	
+	console.log(add1(10,2))
+	
+2 Anonymous Functions
+	let temp1= function (){
+		...
+	}
+	temp1();
+	let temp1= function (a:number,b:number):number{
+		return (a+b)
+	}
+	
+	let temp= function (a:number,b:number){
+		console.log(a+b)
+	}
+	
+	temp(45,6);
+	
+3 fat arrow function
+	
+	let temp2=()=>{
+	....
+	}
+	
+	temp2();
+	
+	let temp2=(a:number,b:number):number=>{
+		return (a+b);
+	}
+	
+4 optional parameter Functions
+	function add1(a?:number,b?:number){
+		...
+	}
+	
+5 Default parameter function
+
+	function add1(a:number,b:number=10){
+		...
+	}
+
+
+summary & Interview Questions
+1 What is Anonymous function?
+2 How to use fat arrow function?
+3 Explain optional parameter function?
+4 Explain default parameter function?
+
+Today's Lecture Agenda
+1 Basics of array 
+2 Join method
+3 foreach method
+4 rest parameter function
+5 Push & pop Method
+
+summary & Interview Questions
+1 How to use foreach method ?
+2 Explain Rest Parameter function?
+3 Why we use push & pop Method
