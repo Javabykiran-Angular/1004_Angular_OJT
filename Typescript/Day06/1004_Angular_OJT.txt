@@ -1,0 +1,46 @@
+Last Lecture Agenda
+1 Basics of array 
+	let a:number[]=[10,20...];
+	let a:number[]=[];
+	let a=[10,20,'sumit];
+	let a:any[]=[];
+	
+	for(let i=0;i<a.length;i++){
+	....
+	}
+	
+	console.log(a);
+	
+2 Join method
+	a.join("  ")
+3 foreach method
+	a.foreach((value,i,arr)=>{
+	...
+	})
+4 rest parameter function
+	function display(...item:number[]){
+		console.log(item);
+	}
+5 Push & pop Method
+
+a.push(10);
+a.push(20,30,45)
+let res=a.pop()
+
+summary & Interview Questions
+1 How to use foreach method ?
+2 Explain Rest Parameter function?
+3 Why we use push & pop Method
+
+Today's Lecture Agenda
+1 Splice method
+2 slice
+3 map
+4 Array Destructor
+5 shallow copy & deep copy 
+
+summary & Interview Questions
+1 How to add data in array on particular index?
+2 What is use of slice 
+3 How to use map method 
+4 What is Array Destructor?
