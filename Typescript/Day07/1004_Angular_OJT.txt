@@ -1,0 +1,51 @@
+Last Lecture Agenda
+1 Splice method
+	let a:number[]=[...];
+	a.splice(1,0,45);
+	a.splice(1,0,45,50,60);
+	a.splice(2,1);
+	a.splice(2,1,700);
+	
+2 slice
+	Let copyarr= course.slice(1,5);
+3 map
+	let sqrarr= a.map((value)=>{
+		return value*value;
+	});
+	
+4 Array Destructor
+	let arr:number[]=[...];
+	
+	let [t1,t2,t3]=arr;
+	
+5 shallow copy & deep copy 
+
+	let a=10;
+	let b=a;
+	
+	let arr=[...];
+	let [...arr1]=arr;
+
+summary & Interview Questions
+1 How to add data in array on particular index?
+2 What is use of slice 
+3 How to use map method 
+4 What is Array Destructor?
+
+Today's Lecture Agenda
+1 swap 2 variable without using 3rd variable?
+
+	1 Addition & Substraction
+	2 Multiplication & division
+	3 xor a=a^b;
+		  b=a^b;
+		  a=
+	4 array destructor
+2 write a function to return multiple value/operation to collect into the variable
+3 Json Object
+4 Array of Object
+
+summary & Interview Questions
+1 What is Array Destructor?
+2 How to swap 2 variable without using 3rd variable?
+3 write a function to return multiple value
