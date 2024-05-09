@@ -1,0 +1,96 @@
+Last Lecture Agenda
+1 swap 2 variable without using 3rd variable?
+
+	1 Addition & Substraction
+	2 Multiplication & division
+	3 xor a=a^b;
+		  b=a^b;
+		  a=
+	4 array destructor
+		let a=10;
+		let b=20;
+		
+		[a,b]=[b,a]
+		
+2 write a function to return multiple value/operation to collect into the variable
+	function operation(a:number,b:number){
+		return [a+b,a-b,a*b]
+	
+	}
+	
+	let [add,sub,mul]=operation(10,3);
+	
+3 Json Object
+	let jsonObj={
+		id:9,
+		fname:"sumit",
+		lname:"raokhande"
+	}
+	
+	jsonObj.id 
+	
+	jsonObj["id"]
+	
+4 Array of Object
+	
+	let arrObj=[
+		{
+			id:9,
+		fname:"sumit",
+		lname:"raokhande",
+		country:{
+			cid:9,
+			cname:"India"
+		},
+		month:[""],
+		result:[
+			{
+				
+			}
+		]
+		},
+		{
+			id:9,
+		fname:"sumit",
+		lname:"raokhande"
+		},
+		...
+	];
+	
+	for(let i=0;i<arrObj.length;i++){
+		console.log("...
+			arrObj[i].country.cname
+			arrObj[i].month.join(" ")
+		");
+		
+		arrObj[i].result.forEach((item)=>{
+				console.log(`
+					item.subj
+					item.marks
+				`)
+		})
+	}
+
+summary & Interview Questions
+1 What is Array Destructor?
+2 How to swap 2 variable without using 3rd variable?
+3 write a function to return multiple value
+
+Today's Lecture Agenda
+1 Additional Features
+2 Oops 
+	- classes
+	- method
+	- inheritance 
+	- polymorphism
+3 Class
+4 Property
+5 Method
+6 Constructor
+7 Access Specifier
+8 access in same package
+9 access in Different package
+
+summary & Interview Questions
+1 What is property,class & object?
+
