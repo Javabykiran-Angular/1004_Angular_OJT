@@ -1,0 +1,28 @@
+Last Lecture Agenda
+1 Additional Features
+2 Oops 
+	- classes
+	- method
+	- inheritance 
+	- polymorphism
+3 Class
+4 Property
+5 Method
+6 Constructor
+7 Access Specifier
+8 access in same package
+9 access in Different package
+
+summary & Interview Questions
+1 What is property,class & object?
+
+Today's Lecture Agenda
+1 Inheritance
+2 method Override
+3 Interface
+4 Composition/ has a relationship
+
+summary & Interview Questions
+1 How to use interface
+2 what is composition
+
