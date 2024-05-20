@@ -1,0 +1,20 @@
+<p>propertybinding works!</p>
+<!-- if u want bind dynamically any data to particular attribute/directive/custom attribute then we use property Binding 
+
+    syntax => [attribute name/directive/custom attribute]="propertyname"
+    - it works on any tag 
+    - it keeps data type of property as it is
+-->
+
+<input type="text" [value]="name" > <br><br>
+
+<img class="myimg" [src]="imgUrl" alt="">
+<hr>
+
+<div hidden="{{ishidden}}">
+    Display text using String Interpolation 
+</div>
+
+<div [hidden]="ishidden">
+    Display text using Property Binding 
+</div>
