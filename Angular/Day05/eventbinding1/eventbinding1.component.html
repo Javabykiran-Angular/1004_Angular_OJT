@@ -1,0 +1,30 @@
+<p>eventbinding1 works!</p>
+
+<!-- syntax
+    (eventName)="eventHandler"
+    - eventHandler is a method that method will create in our component file 
+    - it will work on any html tag 
+
+-->
+
+    <button (click)="onClick()" >Click Event</button>
+    <br><br>
+
+
+   <button [disabled]="isDissabled" (click)="onClick1()" >Click Event</button>
+   <br><br>
+
+   <img src="../../assets/images/bg.jpeg" alt="" id="myimg" (click)="onImageClick()" title="Click on image" >
+
+   <br><br>
+
+   <!-- $event 
+   
+    - It is Special Variable 
+    - It gives current dom element information 
+    
+    -->
+
+    <button (click)="onDollerEvent($event)" value="Doller Event..." >Doller Event</button>
+    
+
