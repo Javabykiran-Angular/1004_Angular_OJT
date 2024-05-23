@@ -1,0 +1,45 @@
+Last Lecture Agenda
+1 Event Binding
+	- data/request flow from view file to component file 
+	
+	<button [dissabled]="isDissabled" (click)="onClick()" >
+	<img (click)="onImage()">
+	
+	.ts 
+	count:number=0
+	isDissabled:boolean=false;
+	onClick(){
+	...
+		console.log("....")
+	}
+	
+	onImage(){
+	...
+	}
+	
+2 Click Event 
+3 $event
+	
+	<button (click)="onDollerEvent($event)">
+	
+	.ts
+	onDollerEvent(myevent:any){
+	
+		console.log(myevent);
+	}
+
+summary & Interview Questions
+1 What is $event?
+2 What is DOM?
+
+Today's Lecture Agenda
+1 Template Ref Variable
+2 Real time Example
+3 change event 
+
+summary & Interview Questions
+1 What is Template Ref Variable
+2 How to implement real time example
+
+
+
