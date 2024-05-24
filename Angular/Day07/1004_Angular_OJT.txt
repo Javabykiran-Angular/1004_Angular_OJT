@@ -1,0 +1,66 @@
+Last Lecture Agenda
+1 Template Ref Variable
+ <input #inputname > 
+ <button (click)="onClick(inputname.value)" > 
+ 
+ .ts 
+ inputname(myinput:any){
+	console.log(myinput.value);
+	myinput.style.background='green';
+	...
+	
+ }
+
+2 Real time Example
+
+	<input type="number" #num1><br><br>
+	<input type="number" #num2><br><br>
+	<button (click)="onAddition(num1.value,num2.value)">
+<input type="number" [value]="result" ><br><br>
+
+.ts 
+result:number=0;
+onAddition(num1:any,num2:any){
+	let n1=+num1;
+	let n2=+num2;
+	this.result=n1+n2;
+}
+
+3 change event 
+	<input #inputname (change)="onChange(inputname.value)">
+	
+	.ts 
+	onChange(data:string){
+		....
+		
+		if(data.length>5){
+			alert("...")
+		}
+		
+	}
+
+summary & Interview Questions
+1 What is Template Ref Variable
+2 How to implement real time example
+
+Today's Lecture Agenda
+1 K/B Event
+	1 keyup
+	2 keydown
+2 Event Filtering
+	- u can apply on specific key 
+3 event binding without event Handler 
+	- pre condition
+			u have to create a property 
+			- one line logic is there
+4 Two way data binding
+
+summary & Interview Questions
+1 explain k/b event?
+2 What is event filtering?
+3 What is Two way data binding?
+4 Explain ngModel?
+5 what is purpose of ngModel?
+
+
+
