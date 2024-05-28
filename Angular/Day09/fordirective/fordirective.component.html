@@ -1,0 +1,82 @@
+<p>fordirective works!</p>
+
+<!-- syntax 
+    *ngFor="let item of arrayname "
+    - it works on any html tag 
+-->
+<!-- 
+<ul >
+    <li *ngFor="let item of course"> {{item}} </li>
+    
+</ul> -->
+<hr>
+
+<!-- <ul >
+    <li *ngFor="let item of course;index as i"> {{i+1}} {{item}} </li>
+    
+</ul> -->
+
+
+<table border="1px">
+    <thead>
+        <tr>
+            <th>Sr No</th>
+            <th>Product Name</th>
+            <th>Product price</th>
+            <th>Product Qty</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr *ngFor="let item of arrProduct;index as i">
+            <td > {{i+1}} </td>
+            <td> {{item.name}} </td>
+            <td> {{item.price}} </td>
+            <td> {{item.qty}} </td>
+        </tr>
+    </tbody>
+
+</table>
+<hr>
+
+
+<table >
+    <thead>
+        <tr>
+            <th>Sr No</th>
+            <th>Product Name</th>
+            <th>Product price</th>
+            <th>Product Qty</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <!-- <tr (mouseover)="onMouseOver(item)" *ngFor="let item of arrProduct;index as i"
+        
+        [ngClass]="{
+            'highlight':selected===item.name
+        }"
+
+        (mouseout)="onMouseOut()"
+
+        > -->
+
+        <tr (mouseover)="onMouseOver(item)" *ngFor="let item of arrProduct;index as i"
+        
+        [ngStyle]="{
+            'background-color':selected===item.name?'green':'white',
+            'color':selected===item.name?'white':'black'
+        }"
+
+        (mouseout)="onMouseOut()"
+
+        >
+
+            <td > {{i+1}} </td>
+            <td> {{item.name}} </td>
+            <td> {{item.price}} </td>
+            <td> {{item.qty}} </td>
+        </tr>
+    </tbody>
+
+</table>

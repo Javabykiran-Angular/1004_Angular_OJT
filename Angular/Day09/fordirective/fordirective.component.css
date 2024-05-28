@@ -1,0 +1,18 @@
+ul{
+    list-style: none;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+th,td{
+    border: 1px solid;
+    padding: 5px;
+    text-align: center;
+}
+
+.highlight{
+    background-color: green;
+    color: white;
+}
