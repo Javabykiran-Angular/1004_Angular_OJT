@@ -1,0 +1,19 @@
+Last Lecture Agenda
+1 Mouse Event
+	1 mouseover 
+		
+	2 mouseout 
+
+summary & Interview Questions
+1 How to use mouse event?
+2 Where to Use of mouseover event?
+3 Where to Use of mouseout event?
+
+
+Today's Lecture Agenda
+1 *ngSwitch Directive
+
+summary & Interview Questions
+1 How to use Switch Directive
+
+
