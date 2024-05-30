@@ -1,0 +1,12 @@
+<p>child1 works!</p>
+
+<h2> {{parentStrData}} </h2>
+<h2> ID:: {{parentJsonData.id}} </h2>
+<h2>First Name :: {{parentJsonData.fname}} </h2>
+<h2>Lat Name :: {{parentJsonData.lname}} </h2>
+
+<ul>
+    <li *ngFor="let item of parentArrData" >
+        {{item}}
+    </li>
+</ul>

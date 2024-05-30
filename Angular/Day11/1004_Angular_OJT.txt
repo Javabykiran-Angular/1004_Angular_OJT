@@ -1,0 +1,21 @@
+Last Lecture Agenda
+1 *ngSwitch Directive
+
+summary & Interview Questions
+1 How to use Switch Directive
+
+
+Today's Lecture Agenda
+1 Component Interaction 
+	- to send data(string/number/boolean/any/array/json/array of object) from one component to another 
+	- To establish parent- child relationship 
+2 @Input()
+	- To send data from parent to child 
+
+
+summary & Interview Questions
+1 What is Component interaction
+2 How to use component interaction
+3 why we use @input decorator?
+4 How we can send data from one component to another component?
+
