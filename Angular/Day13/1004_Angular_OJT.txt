@@ -1,0 +1,13 @@
+Last Lecture Agenda
+1 Task Checking 
+
+summary & Interview Questions 
+NA 
+
+Today's Lecture Agenda
+1 @Output Decorator
+	 - to send data from child to parent 
+
+summary & Interview Questions 
+1 How to use @Output Decorator
+2 When to use @Output
