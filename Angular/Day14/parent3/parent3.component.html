@@ -1,0 +1,21 @@
+<p>parent3 works!</p>
+
+<div #mydiv>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam, consequuntur ratione. Voluptas dignissimos cum rem ipsum, accusamus aliquid tempora veniam cupiditate expedita totam consectetur natus porro eaque molestias fuga quo?</p>
+</div>
+<hr>
+
+<div class="mainDiv">
+    <div class="btnDiv">
+        <button (click)="onAccessProp()" >Access Property</button>
+        <button (click)="onAccessMethod()" >Access Method</button> <br><br>
+        <button (click)="onIncrement()" >Increment</button>
+        <button (click)="onDecrement()" >Decrement</button>
+        
+    </div>
+    <div class="childDiv">
+        <app-child3></app-child3>
+    </div>
+</div>
+
+

@@ -1,0 +1,34 @@
+
+
+[class^="mydivclass"]{
+    border: 1px solid red;
+    background-color: green;
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+ .divclass{
+    border: 1px solid red;
+    background-color: green;
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+.mainDiv{
+    display: flex;
+    align-items:center;
+}
+
+.btnDiv button{
+    margin: 5px;
+    padding: 5px;
+   
+}
+
+.childDiv{
+    margin-left: 250px;
+}

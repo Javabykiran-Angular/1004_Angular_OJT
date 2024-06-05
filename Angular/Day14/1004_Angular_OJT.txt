@@ -1,0 +1,16 @@
+Last Lecture Agenda
+1 @Output Decorator
+	 - to send data from child to parent 
+
+summary & Interview Questions 
+1 How to use @Output Decorator
+2 When to use @Output
+
+Today's Lecture Agenda
+1 ViewChild
+	1 if u want access parent html element in parent ts file without event binding
+	2 U can access child property & child method in parent ts file to control child logic 
+	
+summary & Interview Questions
+1 How to use @ViewChild?
+2 What is purpose of ViewChild?
