@@ -1,0 +1,20 @@
+Last Lecture Agenda
+1 ViewChild
+	1 if u want access parent html element in parent ts file without event binding
+	2 U can access child property & child method in parent ts file to control child logic 
+	
+summary & Interview Questions
+1 How to use @ViewChild?
+2 What is purpose of ViewChild?
+
+Today's Lecture Agenda
+1 Pipe
+	- it transform ur data without changing its original value 
+	- Pipe used on View File 
+2 Inbuild Pipe 
+
+summary & Interview Questions
+1 What is Pipe 
+2 Why we Use pipe?
+3 how inbuild pipe work?
+4 which are inbuild pipes are there list it?
