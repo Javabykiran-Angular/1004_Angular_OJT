@@ -1,0 +1,115 @@
+Last Lecture Agenda
+1 Custome Pipe
+	1 through the CLI pipe create 
+		ng g p summary 
+	2 manual pipe created 
+	summary.pipe.ts 
+	
+	custompipe.html
+	<h2> {{strDetails | summary}}</h2>
+		<h2> {{strDetails | summary:0:35}}</h2>
+	
+	
+	@Pipe({
+		name:"summary",
+		pure:false
+	})
+	export class SummaryPipe implement PipeTransform
+	{
+		transform(value:any,start:number=0,end:number=20){
+			let temp=(<string> value);
+			
+			return (temp.substring(start,end));
+		}
+	}
+	
+	app.module.ts
+	declaration:[
+		SummaryPipe
+	]
+	
+2 PipeTransform
+3 transform(value :any,...arg:any[])
+	@Pipe => Decorator 
+	- Class Level 
+4 Pure Pipe
+5 Impure Pipe
+
+summary & Interview Questions
+1 How to create Custome Pipe?
+2 What is use of PipeTransform?
+3 Explain Types of Pipe 
+
+
+Today's Lecture Agenda
+1 Services
+	- It is simple class 
+	- it is used for code resulability
+	- code maintability
+	- to connect backend server 
+	- authitheciate serice 
+	- it provides isolation to ur component
+	- to write a Businsess Logic 
+	
+2 Dependancy Injection
+3 Http Method
+	1 get => get data from backend server 
+	2 post => to send data from frontend server to backend server 
+	3 put  => to update particular record 
+	4 delete => to delete particular record 
+	
+4 Protocol => Https 
+5 http Request & Http Response 
+	http Request => Request Body + Request header 
+	Request header  
+		- URL 
+		- method
+		- paramter 
+		- date 
+		- ip 
+		- Auth token 
+		- Content Type 
+			- Application/json
+			- pdf
+			- image 
+			- audio 
+			- video 
+			- text/html 
+	Request Body	
+		- data 
+			- json 
+			- text/html 
+			- xml (outdatated)
+			
+	http Response => Response Body + Response header 
+	Response header  
+		- URL 
+		- method
+		- paramter 
+		- date 
+		- ip 
+		- Auth token 
+		- Content Type 
+			- Application/json
+			- pdf
+			- image 
+			- audio 
+			- video 
+			- text/html 
+		- status code 
+			1 2xx => 200-299 => success,ok
+			2 3xx => Redirection => 300-399
+			3 4xx => client side error => 400-499 
+			4 5xx => Server side error => 500-599 
+			
+	Response Body	
+		- data 
+			- json 
+			- text/html 
+			- xml (outdatated)
+
+summary & Interview Questions
+1 What is service?
+2 What is use of service?
+3 How to integrate service in angular application?
+4 Which type of Dependancy Injection is used ?
