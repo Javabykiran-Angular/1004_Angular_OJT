@@ -1,0 +1,95 @@
+Last Lecture Agenda
+1 Services
+	- It is simple class 
+	- it is used for code resulability
+	- code maintability
+	- to connect backend server 
+	- authitheciate serice 
+	- it provides isolation to ur component
+	- to write a Businsess Logic 
+	
+2 Dependancy Injection
+3 Http Method
+	1 get => get data from backend server 
+	2 post => to send data from frontend server to backend server 
+	3 put  => to update particular record 
+	4 delete => to delete particular record 
+	
+4 Protocol => Https 
+5 http Request & Http Response 
+	http Request => Request Body + Request header 
+	Request header  
+		- URL 
+		- method
+		- paramter 
+		- date 
+		- ip 
+		- Auth token 
+		- Content Type 
+			- Application/json
+			- pdf
+			- image 
+			- audio 
+			- video 
+			- text/html 
+	Request Body	
+		- data 
+			- json 
+			- text/html 
+			- xml (outdatated)
+			
+	http Response => Response Body + Response header 
+	Response header  
+		- URL 
+		- method
+		- paramter 
+		- date 
+		- ip 
+		- Auth token 
+		- Content Type 
+			- Application/json
+			- pdf
+			- image 
+			- audio 
+			- video 
+			- text/html 
+		- status code 
+			1 2xx => 200-299 => success,ok
+			2 3xx => Redirection => 300-399
+			3 4xx => client side error => 400-499 
+			4 5xx => Server side error => 500-599 
+			
+	Response Body	
+		- data 
+			- json 
+			- text/html 
+			- xml (outdatated)
+
+summary & Interview Questions
+1 What is service?
+2 What is use of service?
+3 How to integrate service in angular application?
+4 Which type of Dependancy Injection is used ?
+
+
+Today's Lecture Agenda
+1 ng g s http
+
+ https://jsonplaceholder.typicode.com/posts 
+ 
+	It is fake service 
+		it can not store ur data into database but it gives a response of ur request 
+		
+2 HttpClientModule => import in app.module.ts 
+	- HttpClient 	
+3 @Injectable
+4 What is observable
+5 get method
+6 post method
+
+summary & Interview Questions
+1 What is Http Request/Response
+2 Why we use HttpClientModule
+3 What is role of @Injectable
+4 What is observable
+5 How to integrate get method 
