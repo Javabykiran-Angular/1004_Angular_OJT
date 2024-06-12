@@ -1,0 +1,31 @@
+Last Lecture Agenda
+1 ng g s http
+
+ https://jsonplaceholder.typicode.com/posts 
+ 
+	It is fake service 
+		it can not store ur data into database but it gives a response of ur request 
+		
+2 HttpClientModule => import in app.module.ts 
+	- HttpClient 	
+3 @Injectable
+4 What is observable
+5 get method
+6 post method
+
+summary & Interview Questions
+1 What is Http Request/Response
+2 Why we use HttpClientModule
+3 What is role of @Injectable
+4 What is observable
+5 How to integrate get method 
+
+Today's Lecture Agenda
+1 put method 
+2 delete method 
+3 error handling 
+
+summary & Interview Questions
+1 How to Update record in Angular?
+2 How to Delete record in Angular?
+2 How to Handle errors in Angular?

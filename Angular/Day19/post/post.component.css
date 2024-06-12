@@ -1,0 +1,11 @@
+table{
+    border-collapse: collapse;
+}
+tr,td,th{
+    border: 1px solid;
+}
+button{
+    margin: 10px;
+    padding: 8px;
+    border-radius: 6px;
+}
