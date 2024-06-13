@@ -1,0 +1,63 @@
+Last Lecture Agenda
+1 put method 
+2 delete method 
+3 error handling 
+
+summary & Interview Questions
+1 How to Update record in Angular?
+2 How to Delete record in Angular?
+2 How to Handle errors in Angular?
+
+Today's Lecture Agenda
+1 Routing
+	- to navigate from one component to another component
+2 Routing steps
+	1 Configure route 
+	2 <router-outlet> => component directive 
+	3 eastblish the link/navigate  between component
+	
+3 empty path
+4 wild cart operator
+5 send parameter
+
+summary & Interview Questions
+1 What is routing?
+2 How to set empty path?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
