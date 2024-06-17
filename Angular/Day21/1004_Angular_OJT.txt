@@ -1,0 +1,57 @@
+Last Lecture Agenda
+1 Test2 
+
+summary & Interview Questions
+NA
+
+Today's Lecture Agenda
+1 send parameter
+2 Query parameter
+3 Dynamic Routing 
+	=> navigate method => .ts file 
+4 Child Routes
+
+summary & Interview Questions
+1 How to Send Multiple parameter to component?
+2 How to send QueryParameter to component?
+3 What is Dynamic Routing?
+4 How Child Routes Work?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
