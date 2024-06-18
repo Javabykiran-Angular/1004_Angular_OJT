@@ -1,0 +1,65 @@
+Last Lecture Agenda
+1 send parameter
+2 Query parameter
+3 Dynamic Routing 
+	=> navigate method => .ts file 
+4 Child Routes
+
+summary & Interview Questions
+1 How to Send Multiple parameter to component?
+2 How to send QueryParameter to component?
+3 What is Dynamic Routing?
+4 How Child Routes Work?
+
+Today's Lecture Agenda
+1 Lazy Loading
+	1 create ur custom module/ feature module 
+	2 create own routing module file 
+	
+	ng g m user --routing
+	
+3 Modify the Routing
+
+summary & Interview Questions
+1 How to use Child routes in Angular
+2 What is Lazy Loading
+3 How we can Achieve the lazy loading
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
