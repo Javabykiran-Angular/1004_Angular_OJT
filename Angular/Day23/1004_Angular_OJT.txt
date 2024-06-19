@@ -1,0 +1,73 @@
+Last Lecture Agenda
+1 Lazy Loading
+	1 create ur custom module/ feature module 
+	2 create own routing module file 
+	
+	ng g m user --routing
+	
+3 Modify the Routing
+
+summary & Interview Questions
+1 How to use Child routes in Angular
+2 What is Lazy Loading
+3 How we can Achieve the lazy loading
+
+Today's Lecture Agenda
+1 Subject
+2 BehaviorSubject
+3 How to send data to multiple component/ can we send data through the service 
+4 Bootstrap
+	- It is Css Framework 
+	- to make ur application attractive 
+	- it provide template
+	- it make ur application responsive 
+	
+5 Integration of bootstrap
+	1 online intengeration 
+		24*7
+		
+	2 offline intengeration
+		
+
+summary & Interview Questions
+1 How to send data to multiple component
+2 What is BehaviorSubject Subject
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
