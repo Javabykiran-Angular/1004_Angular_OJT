@@ -1,0 +1,85 @@
+Last Lecture Agenda
+1 Subject
+2 BehaviorSubject
+3 How to send data to multiple component/ can we send data through the service 
+4 Bootstrap
+	- It is Css Framework 
+	- to make ur application attractive 
+	- it provide template
+	- it make ur application responsive 
+	
+5 Integration of bootstrap
+	1 online intengeration 
+		24*7
+		
+	2 offline intengeration
+		
+
+summary & Interview Questions
+1 How to send data to multiple component
+2 What is BehaviorSubject Subject
+
+
+
+Today's Lecture Agenda
+1 Template Driven Form 
+	- login,signup,f/b form 
+	- u can validation is perform on view file 
+2 FormControl
+	- It is a class 
+	- It has some properties for validation 
+	
+	1 valid => true/false 
+	2 invalid => true/false 
+	3 touched => true/false 
+	4 pristine => true /false 
+	5 dirty   => true /false 
+	6 errors  => Object 
+	
+	
+	Steps - 
+	1 To create Form control instance => use ngModel without its notation & u have to use name attribute 
+	2 to create template ref variable & assign it ngModel
+	3 for validation purpose we have to use errors object & u have to use required attribute
+	
+
+
+summary & Interview Questions
+1 Explain TDF 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
