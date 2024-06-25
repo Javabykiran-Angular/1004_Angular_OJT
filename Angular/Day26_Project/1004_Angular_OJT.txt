@@ -1,0 +1,135 @@
+Last Lecture Agenda
+1 Continue TDF 
+2 ngSubmit
+3 ngValue 
+
+summary & Interview Questions
+1 How to use ngSubmit?
+2 Why we use ngValue?
+
+Today's Lecture Agenda
+1 Backend Project Discussion
+
+DB Point 
+1 Employee
+	1 id => int => Primary key => autoincrement
+	2 name => varchar
+	3 mobile no => varchar
+	4 emailid => varchar
+	5 department  => varchar
+	6 status  => varchar
+	7 createdBy => varchar
+	8 createdDate => Date
+	9 updatedBy => => varchar
+	10 UpdatedDate  => Date 
+	
+	11 Country => forienKey
+
+2 Country =>
+	cid => int => Primary key => autoincrement
+	cname => varchar
+	
+java Point Of View 
+	entity class 
+		
+	country
+		cid => int => Primary key => autoincrement
+		cname => String
+		
+	Employee 
+		1 id => int => Primary key => autoincrement
+		2 name => String
+		3 mobile no => String
+		4 emailid => String
+		5 department  => String 
+		6 status  => String => (active/inactive/suspend)
+		7 createdBy => String => name who created emp record 
+		8 createdDate => Date= > Java.util.date
+		9 updatedBy => => varchar => String =>name who Updated emp record 
+		10 UpdatedDate  => Date 
+		
+		  @ManyToOne
+		11 country => Country
+	
+	API 
+	1 AddCountry  => Response => String 
+	2 GetAllCountry => Response => List=> Country
+	3 getCountryByID => Response => Country Object
+	4 updateCountry => Response => String
+	5 Delete Country => Response => String
+	6 AddEmployee => Response => String
+	7 GetAllEmployee => Response => List => Employee
+	8 GetEmployeeByID => Response => Object => Employee
+	9 updateEmployee => Response => String
+	10 DeleteEmployee => Response => String
+	11 GetAllEmployeeByStatus => Response => List => Employee
+	
+	@CrossOrigin =>on RestController
+	
+	12 LoginApi 
+		Registration Entity Class 
+		1 id => int => Primary key => autoincrement
+		2 name 
+		3 emailid => unique contraints 
+		4 password
+		5 mobile no 
+		....
+		
+		Which request => Post 
+		Data Received => emailid & password/mobile
+		
+		Response => 
+		if user is valid 
+			{
+				msg:"Valid User",
+				user: {
+						User Object 
+						}
+			}
+			
+			if user is Invalid 
+			{
+				msg:"InValid User",
+				user: null
+			}
+				
+	
+
+
+summary & Interview Questions
+NA for This Session
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
