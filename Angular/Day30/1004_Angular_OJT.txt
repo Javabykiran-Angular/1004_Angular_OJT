@@ -1,0 +1,49 @@
+Last Lecture Agenda
+1 Session Management
+2 Header Component
+3 Auth gaurd
+
+
+summary & Interview Questions
+Not Allowed for Project Session 
+
+Today's Lecture Agenda
+1 Display Data On DashBoard
+2 Apply Pipe
+3 Apply Class Binding
+4 Details View
+
+summary & Interview Questions
+Not Allowed for Project Session 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
