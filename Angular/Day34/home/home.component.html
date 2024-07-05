@@ -1,0 +1,69 @@
+<div class="container-fluid">
+    <app-header></app-header>
+<br>
+    <div>
+        <button routerLink="/addemp" class="btn btn-success">Add Employee</button>
+        <button (click)="onUpdate(popUp)" class="btn btn-warning">Update Employee</button>
+        <button (click)="onDelete()" class="btn btn-danger">Delete Employee</button>
+
+        <div class="mb-3 mt-2 w-25" style="margin-top: 10px;float: right;">
+            <div class="input-group">
+                <span class="input-group-text" style="font-size: 1em;margin-right: 2px;">
+                    <i class="fas fa-search"></i></span>
+                    <input type="text" class="form-control" placeholder="Search"
+                     [(ngModel)]="nameSearch">
+               </div>
+          </div>
+
+    </div>
+
+
+    <ng-template #popUp>
+        <app-updateemployee [parentObj]="empObj" ></app-updateemployee>
+        <button (click)="modalRef.hide()" class="btn btn-danger">cancel</button>
+    </ng-template>
+
+    <br>
+
+    <table class="table table-bordered table-hover">
+        <thead>
+            <tr>
+                <th>Sr No</th>
+                <th>Action</th>
+                <th>Name</th>
+                <th>Department</th>
+                <th>Status</th>
+                <th>Created By</th>
+                <th>Created Date</th>
+                <th>Updated By</th>
+                <th>Updated Date</th>
+                <th>Country</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of empData|paginate: { itemsPerPage: 5, currentPage: p } | filter:nameSearch;index as i">
+                <td> {{i+1}} </td>
+                <td><input (click)="onEdit(item)" type="radio" name="edit"></td>
+                <td><a [routerLink]="['/details',item.id]">{{item.name}} </a> </td>
+                <td> {{item.department}} </td>
+                <td><h4><span
+                     [ngClass]="{
+                        'badge':true,
+                        'rounded-pill':true,
+                        'bg-success':item.status.toLowerCase()==='active',
+                        'bg-warning':item.status.toLowerCase()==='inactive',
+                        'bg-danger':item.status.toLowerCase()==='suspend'
+                     }"   
+                    >{{item.status}}</span> </h4> </td>
+                <td> {{item.createdby}} </td>
+                <td> {{item.createddtm | date}} </td>
+                <td> {{item.updatedby}} </td>
+                <td> {{item.updateddtm| date:'dd-MM-yyyy'}} </td>
+                <td> {{item.country.cname}} </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <pagination-controls style="float: right;" (pageChange)="p = $event"></pagination-controls>
+
+</div>
