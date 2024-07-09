@@ -1,0 +1,51 @@
+Last Lecture Agenda
+1 Change status
+2 File upload
+
+summary 
+Interview Questions
+Not Allowed for Project Session 
+
+Today's Lecture Agenda
+1 Lazy loading
+	ng g m dashboard --routing
+2 Create  environment
+ng g environments
+3 final build
+4 Host on github
+
+summary 
+ Interview Questions
+Not Allowed for Project Session 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
